@@ -112,9 +112,15 @@ When registering the fifth airline, voting system starts and a log wil warn abou
 
 # Program version numbers
 
-* Node.js v6.14.4
-* Solidity v0.4.25
-* Truffle v5.1.27
-* Ganache v6.10.0-beta.2
-* truffle-hdwallet-provider v1.0.2
-* Web3 v1.2.6
+➜  FlightSurety git:(master) ✗ truffle version
+
+- Truffle v5.6.0 (core: 5.6.0)
+- Ganache v7.4.3
+- Solidity - 0.4.24 (solc-js)
+- Node v12.14.1
+- Web3.js v1.7.4
+
+# Notes
+Run ganache-cli with the following command 
+`ganache-cli -l 99999999999999 -a 50`
+to generate 50 accounts and with a high gas limit
